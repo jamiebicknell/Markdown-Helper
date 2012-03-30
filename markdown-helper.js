@@ -1,7 +1,7 @@
 /*
-Title: Markdown Helper
-Author: @jamiebicknell
-URL: http://github.com/jamiebicknell/Markdown-Helper
+Title:   Markdown Helper
+Author:  @jamiebicknell
+URL:     http://github.com/jamiebicknell/Markdown-Helper
 */
 
 function MarkdownHelper(block,event) {
