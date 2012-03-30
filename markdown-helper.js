@@ -1,6 +1,5 @@
 /*
 Title: Markdown Helper
-Author: @jamiebicknell
 URL: http://github.com/jamiebicknell/Markdown-Helper
 */
 
