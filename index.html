@@ -93,8 +93,8 @@ textarea {
     <h1>Markdown Helper</h1>
     <h2>Built by <a href='http://www.twitter.com/jamiebicknell'>@jamiebicknell</a></h2>
     <hr />
-    <p>A Javascript based Markdown helper which when you hit the return key, it checks to see if the line is a bullet, numbered list or code block and automatically indents and adds the asterisk, number or spaces. If you hit return again on an empty line, it will remove that item and return to regular paragraph text.</p>
-    <p>To see it in action, create either a <strong>bullet list</strong>, <strong>numbered list</strong> or <strong>code block</strong> using Markdown syntax and press return to start a new line. To resume regular text input, just press return on an empty line.</p>
+    <p>A Javascript based Markdown helper which when you hit the return key, it checks to see if the line is a bullet, numbered list, code block or blockquote and automatically indents and adds the Markdown syntax. If you hit return again on an empty line, it will remove that item and return to regular paragraph text.</p>
+    <p>To see it in action, create either a <strong>bullet list</strong>, <strong>numbered list</strong>, <strong>code block</strong> or <strong>blockquote</strong> using Markdown syntax and press return to start a new line. To resume regular text input, just press return on an empty line.</p>
     <hr />
     <textarea name='input' onkeypress='return MarkdownHelper(this,event);'></textarea>
 </div>
