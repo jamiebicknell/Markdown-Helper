@@ -22,7 +22,7 @@ function MarkdownHelper(block,event) {
         state = input.substr(0,start).split('\n').length;
         value = lines[state-1].replace(/^\s+/,'');
         first = value.substr(0,2);
-        if(new RegExp('^[0-9]+. (.*)$').test(value)) {
+        if(new RegExp('^[0-9]+[\.] (.*)$').test(value)) {
             prior = value.substr(0,value.indexOf('. '));
             begin = prior + '. ';
             label = String(eval(prior)+1) + '. ';
