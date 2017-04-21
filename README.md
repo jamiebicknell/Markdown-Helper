@@ -11,6 +11,6 @@ A JavaScript based Markdown helper which when you hit the return key, it checks 
 <textarea name='input' onkeypress='return MarkdownHelper(this,event);'></textarea>
 ```
 
-##License
+## License
 
 Markdown Helper is licensed under the [MIT license](http://opensource.org/licenses/MIT), see [LICENSE.md](https://github.com/jamiebicknell/Markdown-Helper/blob/master/LICENSE.md) for details.
